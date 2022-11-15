@@ -1,9 +1,11 @@
 // THIS FILE IS GENERATED AUTOMATICALLY. DO NOT MODIFY.
 
+import NewareyuiDex from './newareyui.dex'
 import NewareyuiNewareyui from './newareyui.newareyui'
 
 
 export default { 
+  NewareyuiDex: load(NewareyuiDex, 'newareyui.dex'),
   NewareyuiNewareyui: load(NewareyuiNewareyui, 'newareyui.newareyui'),
   
 }
