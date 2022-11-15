@@ -1,0 +1,14 @@
+syntax = "proto3";
+package newareyui.newareyui;
+
+import "gogoproto/gogo.proto";
+import "newareyui/newareyui/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "neware-yui/x/newareyui/types";
+
+// GenesisState defines the newareyui module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}
